@@ -1,0 +1,98 @@
+/* Google Fonts Link  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+:root{
+  --primary-color: #173a69;
+  --secondary-color: #010101;
+  --third-color: #fff;
+}
+
+/*========== Header Start  ==========*/
+header .top-header{
+  background-color: var(--primary-color);
+}
+
+
+nav .container .collapse ul li a {
+  margin-right: 45px;
+  color: #000;
+  font-weight: 500;
+  font-size: 17px;
+}
+nav .container .collapse ul li a:hover,
+nav .container .collapse ul li a.active {
+  color: var();
+  position: relative;
+}
+nav .container .collapse ul li a.active::after, nav .container .collapse ul li a:hover::after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	right: 0;
+	bottom: -11px;
+	height: 2px;
+	background-color: rgb(35, 35, 36);
+	width: 100%;
+}
+
+.banner-section{
+  background-image: url('images/slide\ 01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+.banner-section .container .row .banner-details h5{
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+.banner-section .container .row .banner-details h1{
+  font-size: 60px;
+  font-weight: 900;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+.banner-section .container .row .banner-details p{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+.banner-section .container .row .banner-details a{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--third-color);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: .4s ease-in;
+}
+.banner-section .container .row .banner-details a:hover{
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+.banner-section .container .row .banner-details a:last-child{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: 2px solid var(--secondary-color);
+  transition: .4s ease-in;
+}
+.banner-section .container .row .banner-details a:hover:last-child{
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  border: 2px solid transparent;
+}
