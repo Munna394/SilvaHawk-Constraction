@@ -121,3 +121,38 @@ nav .container .collapse ul li a:hover::after {
     font-weight: 400;
     color: var(--secondary-color);
 }
+/*== About Design Start  ==*/
+.about-section{
+  background-image: url(images/about\ us\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  align-content: center;
+}
+.about-section .container .row .about-details{
+  margin-left: 30px;
+}
+.about-section .container .row h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  position: relative;
+}
+.about-section .container .row h3::after {
+	content: '';
+	position: absolute;
+	background-image: url('images/about\ services\ bar.png');
+	background-repeat: no-repeat;
+	width: 124px;
+	height: 20px;
+	left: 0;
+	bottom: -50px;
+}
+.about-section .container .row p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondary-color);
+  line-height: 30px;
+}
