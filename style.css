@@ -202,3 +202,68 @@ footer .container .row .social-media .i{
   padding: 10px 0;
   align-content: center;
 }
+
+
+
+/*========= Services Page Design Start ======== */
+/*========= Services Page Design End ======== */
+
+/*========= About Page Design Start ======== */
+/*========= About Page Design End ======== */
+
+/*========= Gallery Page Design Start ======== */
+/*========= Gallery Page Design End ======== */
+
+/*========= Contact Page Design Start ======== */
+/*========= Contact Page Design End ======== */
+
+
+
+/* Responsive Design Start  */
+@media (max-width: 799px) {
+  .banner-section {
+    height: 51vh;
+  }
+  .banner-section .container .row .banner-details {
+    position: absolute;
+    right: 20px;
+  }
+  .banner-section .container .row .banner-details h5 {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .banner-section .container .row .banner-details h1 {
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .banner-section .container .row .banner-details p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .banner-section .container .row .banner-details a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+  .banner-section .container .row .banner-details a:last-child {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+  .about-section {
+    height: 115vh;
+  }
+  .about-section .container .row .about-details {
+    margin-top: 40px;
+  }
+  .gallery-section .container .row h3::after {
+    left: 33%;
+  }
+  .gallery-section .container .row .button-group a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+
+}
+/* Responsive Design End  */
