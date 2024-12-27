@@ -266,4 +266,53 @@ footer .container .row .social-media .i{
   }
 
 }
+
+@media (max-width: 477px){
+  header .top-header .container .row .top-header-left ul li i{
+    font-size: 14px;
+  }
+  header .top-header .container .row .top-header-left ul li a{
+    font-size: 13px;
+    margin-right: 16px;
+  }
+  header .top-header .container .row .top-header-right {
+    display: none;
+  }
+  .banner-section {
+    height: 30vh;
+  }
+  .banner-section .container .row .banner-details {
+    top: 44px;
+    left: 108px;
+  }
+  .banner-section .container .row .banner-details h5 {
+    font-size: 14px;
+  }
+  .banner-section .container .row .banner-details h1 {
+    font-size: 25px;
+  }
+  .banner-section .container .row .banner-details p {
+    font-size: 14px;
+  }
+  .banner-section .container .row .banner-details .group {
+    margin-top: 25px;
+  }
+  .banner-section .container .row .banner-details a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .banner-section .container .row .banner-details a:last-child {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .services-section .container .row .img-details {
+    margin-bottom: 60px;
+  }
+  .about-section .container .row h3::after {
+    bottom: -35px;
+  }
+  .gallery-section .container .row h3::after {
+    left: 20%;
+  }
+}
 /* Responsive Design End  */
