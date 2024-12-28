@@ -399,6 +399,9 @@ footer .container .row .social-media .i{
   .about-services .container .row .services-details h3::after {
     left: 92px;
   }
+  .general-section .bottom-part {
+    height: 130vh;
+  }
     /* About Page Responsive End   */
 }
 /* Responsive Design End  */
