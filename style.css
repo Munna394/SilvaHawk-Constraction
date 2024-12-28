@@ -326,6 +326,21 @@ footer .container .row .social-media .i{
     padding: 8px 20px;
   }
 
+
+
+  /* About Page Responsive Start  */
+  .about-services {
+    height: 173vh;
+    object-fit: cover;
+  }
+  .about-services .container .row .services-details h3::after {
+    left: 266px;
+  }
+  .general-section .bottom-part {
+    height: 112vh;
+  }
+  /* About Page Responsive End  */
+
 }
 
 @media (max-width: 477px){
@@ -375,5 +390,15 @@ footer .container .row .social-media .i{
   .gallery-section .container .row h3::after {
     left: 20%;
   }
+
+
+  /* About Page Responsive Start   */
+  .about-services {
+    height: 155vh;
+  }
+  .about-services .container .row .services-details h3::after {
+    left: 92px;
+  }
+    /* About Page Responsive End   */
 }
 /* Responsive Design End  */
