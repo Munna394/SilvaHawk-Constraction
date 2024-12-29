@@ -317,6 +317,27 @@ footer .container .row .social-media .i{
 /*========= Gallery Page Design End ======== */
 
 /*========= Contact Page Design Start ======== */
+.contact-section .container .row .col-12{
+  align-content: center;
+}
+.contact-section .container .row .col-12 .form-group button{
+  padding: 10px 36px;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
+.contact-section .container .row .contact-dtls a {
+  color: var(--secondary-color);
+
+}
+.contact-section .container .row .contact-dtls a i{
+  color: var(--primary-color);
+}
+.contact-section .container .row .contact-dtls a span{
+  color: var(--primary-color);
+  font-weight: 700;
+}
 /*========= Contact Page Design End ======== */
 
 
@@ -387,6 +408,11 @@ footer .container .row .social-media .i{
     height: 116vh;
   }
   /* About Page Responsive End  */
+  /* Contact Page Responsive Start  */
+  .contact-section .container .row .contact-dtls.ms-5 {
+    margin-top: 20px;
+  }
+  /* Contact Page Responsive End  */
 
 }
 
