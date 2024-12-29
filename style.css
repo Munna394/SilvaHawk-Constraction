@@ -249,14 +249,14 @@ footer .container .row .social-media .i{
   color: var(--primary-color);
   font-weight: 700;
 }
-.general-section .top-part .container .row .top-part-text h3{
+.general-section .container .row .top-part-text h3{
   font-weight: 700;
   font-size: 25px;
 }
-.general-section .top-part .container .row .top-part-text h3 span{
+.general-section .container .row .top-part-text h3 span{
   color: var(--primary-color);
 }
-.general-section .bottom-part{
+.Maintenance-section{
   background-image: url('images/about\ service\ 2nd\ BG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,6 +329,12 @@ footer .container .row .social-media .i{
 
 
   /* About Page Responsive Start  */
+  .inner-banner {
+    height: 25vh;
+  }
+  .about-section .container .row h3::after {
+    bottom: -30px;
+  }
   .about-services {
     height: 173vh;
     object-fit: cover;
@@ -336,8 +342,8 @@ footer .container .row .social-media .i{
   .about-services .container .row .services-details h3::after {
     left: 266px;
   }
-  .general-section .bottom-part {
-    height: 112vh;
+  .Maintenance-section {
+    height: 116vh;
   }
   /* About Page Responsive End  */
 
@@ -393,14 +399,21 @@ footer .container .row .social-media .i{
 
 
   /* About Page Responsive Start   */
+  .inner-banner {
+    height: 18vh;
+  }
   .about-services {
     height: 155vh;
   }
   .about-services .container .row .services-details h3::after {
     left: 92px;
   }
-  .general-section .bottom-part {
+  .Maintenance-section {
     height: 130vh;
+  }
+  .general-section .container .row .top-part-text h3 {
+    font-weight: 600;
+    font-size: 20px;
   }
     /* About Page Responsive End   */
 }
